@@ -1,0 +1,84 @@
+body {
+    background-color: #ecf0f1;
+    font-family: "Arial", sans-serif;
+    background-image: url("../images/ggb.jpg");
+    background-size: cover;
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#calculator1 {
+    width: 500px;
+    height: 500px;
+    background-color: #2980b9;
+    color: #ecf0f1;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1, form {
+    text-align: center;
+}
+
+#sales-tax-form {
+    padding-top: 20px;
+}
+
+#sales-tax-form label {
+    font-size: 22px;
+    text-align: justify;
+}
+
+#expense {
+    width: 196px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: #e67e22;
+}
+
+#button-container {
+    margin: 0 auto;
+    width: 200px;
+}
+
+#total-button {
+    width: 200px;
+    height: 66px;
+    font-size: 25px;
+    border: 0;
+    background-color: #3498db;
+    border-radius: 10px;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#total-button:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+}
+
+ol {
+    font-size: 12px;
+}
+
+#expense, #sales-tax-form label, #sales-tax-form input {
+    margin: 20px;
+}
+
+#results {
+    text-align: center;
+}
